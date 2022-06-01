@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="language" content = "En">
+      <title>Sri sai smilecare</title>
+      <title>Dental Clinic in Vizag | Best Dentist Vizag | Dental Hospital</title>
+      <meta name = "description" content = "Smilecare offers in-clinic dental care solutions,and alsotop Dental implant Clinic in Visakhapatnam,speacialized in customized treatments and plans,dental treatment">
+      <meta name ="keywords" content ="dental implants, single tooth dental implants, cost of dental implants, dental implants in vizag, dental implant surgery, free dental implants, conventional dentures, dental implant cost, dental implant treatment in vizag, teeth hospital near me, oral dental clinic, dental implants cost in visakhapatnam, artificial teeth implantation in vizag">
+      <meta content='Best Dental Clinic in Vizag pm palem, Dentists in pm palem | Book Appointment Now' name=title>
+      <link rel="canonical" href="https://srisaismilecare.in/" />
+      <link rel="shortcut icon" href="\images\favicon.jpg" type="image/x-icon">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" href="images/logo.png" type="image" sizes="16x16">
+      <link rel = "stylesheet" href ="smilecare.css" type = "text/css">
+      <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      
+    </head>
+          <body>
+              <!-- header section begin -->
+            <div class="header" id="">
+                <a href="index.php"><img src="\images\new logo.png" alt="logo"></a>
+                  <ul class="nav">
+                  <li class="nav-item  hover-underline-animation"><a href="index.php">Home</a></li>
+                      <li class="nav-item  hover-underline-animation"><a href="aboutus.php">About</a></li>
+                      <li class="nav-item  hover-underline-animation"><a href="services.php">Services</a></li>
+                      <li class="nav-item  hover-underline-animation"><a href="101dental.php">101 Dental</a></li>
+                      <li class="nav-item"><button style="width:110px;height:40px;" class="animated-border-button"><a href="tel:+919052559108" style="word-wrap:break-word;background-color:transparent;color:white;font-size:14px;">Appointment</a></button></li>
+                  </ul>
+                  <div class="hamburger-menu" id="mobile-menu">
+                  <div class="bar top"></div>
+                  <div class="bar middle"></div>
+                  <div class="bar bottom"></div>
+                  </div>
+            </div>
+            <!-- header section ending -->
+
+            <!-- banner section begin  -->
+            <div class="banner_section">
+              <img src="\images\aboutus_banner.jpeg" alt="about us banner">
+                <h1 class="banner_heading" style="font-family:'Catamaran',sans-serif;color:#E9D5CA;background-color:transparent;font-weight:bold;">About Our Dental Practice</h1>
+                <h5 style="font-family:'Catamaran',sans-serif;font-wieight:bold;color:white;">11+Years of experience & High tech Dentistry.<br>Focused on Your Comfort and lifelong Health. And Always accepting New patients...</h5>
+            </div>
+            <!-- BANNER SECTION ending -->
+            <!-- comment section begin -->
+            <div class="comment_section">
+                      <h5 style="font-family:'Catamaran',sans-serif;width:80%;text-align:center">Extraordinarily competent organised passionate in his profession...
+                          He lives to his motto that excellence will be tolerated. I felt very safe and confident in his hand for the treatment... Clinic meets the standards of cleanliness...I felt very safe visiting the clinic during the covid situations...
+                          One of the best doctor with loads of patience and professionalism...I will highly recommend Dr. Shiva for any dental problems...
+                          Thank you...😊
+                          <br>
+                          <br>
+                         <strong style="font-weight:bold">-- Hema Vani</strong> 
+                        </h5>
+            </div>
+            <!-- comment section ending--> 
+            <!-- Our philosophy section begin  -->
+            <div class="philosophy_section">
+              <section class="philosophy_heading">
+                <h2 style="font-weight:bold;font-family:'Catamaran',sans-serif;text-align:center;color:white;background-color:#4787B0;margin-bottom:35px;padding:15px;">Our Philosophy of Care is Built On…</h2>
+              </section>
+              <div style="display:flex;">
+              <section style="width:100%;height:300px;background-color:#4787B0;display:flex;flex-direction:column;justify-content:center;align-items:center;"><i class="fa fa-heart" style="font-size:42px;color:white;background-color:#2D7EAF;padding:20px;border-radius:100px;"></i>
+            <h3 style="font-family:'Catamaran',sans-serif;background-color:transparent;color:white;font-weight:bold;margin-top:10px;">Comfort</h3>
+            <p style="font-family:'Cataraman',sans-serif;width:70%;background-color:transparent;color:white;text-align:center;margin-top:10px;line-height:2;">Relax and enjoy your time at the dentist. Our entire staff is dedicated to delivering a pleasant and high-comfort experience unlike any other dentist in the pm palem,vizag</p>
+            </section>
+              <section style="width:100%;height:300px;background-color:#4787B0;display:flex;flex-direction:column;justify-content:center;align-items:center;"><i class='fas fa-comments' style='font-size:48px;color:white;background-color:#2D7EAF;padding:20px;border-radius:100px;'></i>
+              <h3 style="font-family:'Catamaran',sans-serif;background-color:transparent;color:white;font-weight:bold;margin-top:10px;">Relationships</h3>
+              <p style="font-family:'Cataraman',sans-serif;width:70%;background-color:transparent;color:white;text-align:center;margin-top:10px;line-height:2;">Experience a personalized approach. We focus on establishing long-term relationships by designing a care and prevention plan meant just for you.</p>
+
+            </section>
+              <section style="width:100%;height:300px;background-color:#4787B0;display:flex;flex-direction:column;justify-content:center;align-items:center;"><i class="fa fa-thumbs-up" style="font-size:48px;color:white;background-color:#2D7EAF;padding:20px;border-radius:100px;"></i>
+              <h3 style="font-family:'Catamaran',sans-serif;background-color:transparent;color:white;font-weight:bold;margin-top:10px;">Results</h3>
+              <p style="font-family:'Cataraman',sans-serif;width:70%;background-color:transparent;color:white;text-align:center;margin-top:10px;line-height:2;">Modern, high-tech treatments ensure every tooth in your mouth is healthy and beautiful! We offer proven dental technologies to ensure you achieve dental health..</p>
+
+            </section>
+              </div>
+              
+
+            </div>
+
+
+            <!-- philosophy section ending -->
+            <!-- about doctor section begin --> 
+            <div class="about_doctor">
+              <img src="\images\drshivakumar.jpeg" alt="doctor image">
+              <div class="doctor_text">
+                <h2 style="background-color:transparent;font-family:'Cataraman',sans-serif;font-weight:bold;text-align:center;">Dr Siva kumar Gudala, M.D.S</h2>
+                <p style="background-color:transparent;font-family:'Cataraman',sans-serif;text-align:center;width:80%">Dr Siva Kumar Gudala Graduated from N.T.R University in 2011, <b>REGD:A-8805</b> .since He started practicing in pm palem , visakhapatnam. professor at GITAM university. <br> <br>Dr. Siva Kumar is passionate about developing lasting relationships with his patients and helping people of all ages improve their health. This personalized approach has led Dr. Siva to become one of the most trusted dentists in the Pm palem, with many of his patients traveling from nearby areas like <b>carshed , pm palem and beside ysr cricket stadium, pm palem</b>. <br>With the belief that everyone deserves great dental care, Dr.Siva is dedicated to helping underserved populations in the community. He and his staff frequently volunteer for the  Children’s Dental Clinic. </p>
+              </div>
+
+            </div>
+            <!-- about doctor section ending -->
+
+            <!-- areas of expertise section begin -->
+
+            <div class="areas_of_expertise">
+            <section class="areas_heading"><h2 style="font-family:'Catamaran',sans-serif;font-weight:bold;text-align:center;margin-top:5px;">Areas of Expertise</h2></section>   
+            <div class="areas_section">
+                  <section class="areas">
+                        <h4 style="font-family:'Catamaran',sans-serif;font-weight:bold;text-align:center;">General</h4>
+                        <p style="width:80%;">Our gentle and high-tech fillings, crowns, and other general dental services are designed to keep your teeth and gums healthy, strong, and beautiful.</p>
+                        <button class="animated-fill-button"><a href="services.php" style="text-decoration:none">Read More</a></button>
+                  </section>
+                  <section class="areas">
+                  <h4 style="font-family:'Catamaran',sans-serif;font-weight:bold;text-align:center;">Prosthodontist</h4>
+                        <p style="width:80%;">Dr siva kumar is a specialist in (Prosthodontist) treating complex dental and facial matters, including the restoration and replacement of missing or damaged teeth with artificial devices. </p>
+                        <button class="animated-fill-button"><a href="services.php" style="text-decoration:none">Read More</a></button>
+                  </section>
+                  <section class="areas">
+                  <h4 style="font-family:'Catamaran',sans-serif;font-weight:bold;text-align:center;">Implantologist</h4>
+                        <p style="width:80%;">Dr siva kumar is a specialist in (implantologist) trained and educated dentist about the process of placing dental implants in the jaw. This dental professional can offer you another chance at achieving good dental health. </p>
+                        <button class="animated-fill-button"><a href="services.php" style="text-decoration:none">Read More</a></button>
+                  </section>
+                  </div>
+
+            </div>
+            <!-- area of expertise section ending -->
+            <!-- footer section -->
+            <div class="footer">
+<section class="footer_sections">
+<section class="footer_contact_us">
+  <h5 style="background-color:transparent;color:white;font-family:'Catamaran',sans-serif;margin-top:25px;" class="hover-underline-animation">contact us</h5>
+  <ul style="background-color:transparent;display:block;">
+    <li style="background-color:transparent;color:white;list-style:none;display:block;">
+    <i class='fas fa-map-marker-alt' style="background-color:transparent"> </i><a href="#" style="color:white;text-decoration:none;margin-top:15px"> 10-50-GFI-dixon paradisem, beside ysr stadium, Pm palem.</a>
+    </li>
+    <li style="background-color:transparent;color:white;list-style:none;display:block; margin-top:15px;"><i class='fas fa-phone-volume' style="background-color:transparent"></i><a href="tel:+917416640503" style="color:white;text-decoration:none;"> +91-741-554-0503</a> </li>
+    <li style="background-color:transparent;color:white;list-style:none;display:block; margin-top:15px;font-size:14px;"><i class="fa fa-envelope" style="background-color:transparent"></i> <a href="mailto:srisaismilecare@gmail.com" style="color:white;text-decoration:none;" class="hover-underline-animation"> srisaismilecare@gmail.com</a> </li>
+  </ul>
+
+</section>
+<section class="useful_links">
+<h5 style="background-color:transparent;color:white;font-weight:bold;font-family:'Catamaran',sans-serif;" class="hover-underline-animation">Useful Links</h5>
+  
+<ul style="background-color:transparent;display:block;">
+  <li style="background-color:transparent;font-weight:bold;color:white;list-style:none;display:block;" ><a href="#" style="color:white;text-decoration:none;margin-top:15px;"class="hover-underline-animation">Home</a></li>
+
+  <li style="background-color:transparent;font-weight:bold;color:white;list-style:none;display:block;" ><a href="#" style="color:white;text-decoration:none;margin-top:15px;"class="hover-underline-animation">About Us</a></li>
+
+    <li style="background-color:transparent;font-weight:bold;color:white;list-style:none;display:block;" ><a href="#" style="color:white;text-decoration:none;margin-top:15px;"class="hover-underline-animation">Services</a></li>
+    
+    <li style="background-color:transparent;font-weight:bold;color:white;list-style:none;display:block;" ><a href="#" style="color:white;text-decoration:none;margin-top:15px;"class="hover-underline-animation">Our Pricing</a></li>
+  </ul>
+</section>
+<section class="footer_services">
+<h5 style="background-color:transparent;color:white;font-weight:bold;font-family:'Catamaran',sans-serif;" class="hover-underline-animation">Services</h5>
+<ul style="background-color:transparent">
+
+<li style="background-color:transparent;color:white;list-style:none;margin-top:5px;">Root Canal</li>
+<li style="background-color:transparent;color:white;list-style:none;margin-top:5px;">Pediatric Dentistry</li>
+<li style="background-color:transparent;color:white;list-style:none;margin-top:5px;">Surgical Extractions</li>
+<li style="background-color:transparent;color:white;list-style:none;margin-top:5px;">Complete Dentures</li>
+<li style="background-color:transparent;color:white;list-style:none;margin-top:5px;">Flap Surgeries</li>
+<li style="background-color:transparent;color:white;list-style:none;margin-top:5px;">Braces and Invsalign</li>
+<li style="background-color:transparent;color:white;list-style:none;margin-top:5px;">Cosmetic Restorations</li>
+
+
+
+</ul>
+</section>
+<section class="social_media">
+<ul style="background-color:transparent">
+  <li style="background-color:transparent;color:white;list-style:none;margin-top:10px;"> <i class="fa fa-facebook-f" style="font-size:24px;background-color:transparent"></i> <a href="#" style="color:white;text-decoration:none;" class="hover-underline-animation">facebook</a></li>
+  <li style="background-color:transparent;color:white;list-style:none;margin-top:10px;"> <i class="fa fa-instagram" style="font-size:24px;background-color:transparent"> </i> <a href="#" style="color:white;text-decoration:none;" class="hover-underline-animation">Instagram</a></li>
+  <li style="background-color:transparent;color:white;list-style:none;margin-top:10px;"> <i class="fa fa-twitter" style="font-size:24px;background-color:transparent"> </i> <a href="#" style="color:white;text-decoration:none;" class="hover-underline-animation">Twitter</a></li>
+  <li style="background-color:transparent;color:white;list-style:none;margin-top:10px;"> <i class="fa fa-rss-square" style="font-size:24px;background-color:transparent"> </i> <a href="#" style="color:white;text-decoration:none;" class="hover-underline-animation">RSS Feed</a></li>
+</ul>
+</section>
+</section>
+<section style="background-color:transparent;margin-top:10px;">
+<h3 style="font-family:'Catamaran',sans-serif;font-weight:bold;background-color:transparent;color:white;">Designed and Developed By Pacific Software Soluions 	&#169;</h3>
+</section>
+</div>
+
+<!-- footer section ending   -->
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <script type="text/javascript" src="smilecare.js"></script>
+                      <script src="jquery.min.js"></script>
+</body>
+</html>

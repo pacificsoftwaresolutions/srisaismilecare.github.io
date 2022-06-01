@@ -1,0 +1,1075 @@
+*{
+	box-sizing: border-box;
+	background-color:#ffffff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+	background: #89b98c;
+	border-radius: 12px;
+  }
+  ::-webkit-scrollbar-thumb {
+	background: #1c241e;
+	border-radius: 12px;
+  }  
+  /**************** header section styling begin **********************/
+  .header{
+      width:100%;
+      height:120px;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      position: -webkit-sticky;
+     /* position: sticky;*/
+      top: 0;
+      display: flex;
+      align-items: center;
+  }
+  .header img{
+     width:250px;
+    height:105px;
+    object-fit: cover;
+    margin-top:5px;
+    margin-left:50px;
+  }
+  .header .nav{
+      display: flex;
+      align-items: center;
+      margin-left:250px;
+  }
+  .nav li{
+      margin-left:45px;
+      list-style: none;
+      font-size:20px;
+  }
+  .nav li a{
+   text-decoration: none;
+   color:black;
+   font-weight:bold;
+   
+  }
+  .nav button{
+      border:1px solid white;
+      background-color: #263059;
+      color:white;
+      border-radius:5px;
+  }
+  .animated-border-button {
+    border: none;
+    color: #ffffff;
+    outline: none;
+    position: relative;
+  }
+  .animated-border-button:before,
+.animated-border-button:after {
+  border: 0 solid transparent;
+  transition: all 0.3s;
+  content: '';
+  height: 0;
+  position: absolute;
+  width: 15px;
+}
+.animated-border-button:before {
+    border-top: 2px solid #263059;
+    right: 0;
+    top: -4px;
+  }
+  
+  .animated-border-button:after {
+    border-bottom: 2px solid #263059;
+    bottom: -4px;
+    left: 0;
+  }
+  
+  .animated-border-button:hover:before,
+  .animated-border-button:hover:after {
+    width: 100%;
+  }
+
+
+  /****************** hover animation ***************************/
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  /********************* hover animation styling ending *******************************/
+  .hamburger-menu {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 1.5rem;
+    width: 1.7rem;
+    cursor: pointer;
+    margin-left: 50px;
+    display:none;
+  }
+  .hamburger-menu .bar {
+    height: 3px;
+    background: black;
+    border-radius: 5px;
+    margin: 1px 0px;
+    transform-origin: left;
+    transition: all 0.5s;
+  }
+  .hamburger-menu:hover .top {
+    transform: rotate(45deg);
+  }
+  .hamburger-menu:hover .middle {
+    opacity: 0;
+  }
+  
+  .hamburger-menu:hover .bottom {
+    transform: rotate(-45deg);
+  }
+  /********************* section2 home page banners section stkling *****************************/
+  .homepage_Banners{
+    width:100%;
+    height:500px;
+  }
+  .homepage_Banners img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: right 25%; 
+   }
+   .contact_us{
+     width:350px;
+     height:250px;
+     position: relative;
+     left:800px;
+     top:-300px;
+     background-color: transparent;
+   }
+   .contact_us p,h1{
+     background-color: transparent;
+     text-align:left;
+     font-weight: bold;
+   }
+   .contact_us .btn-info{
+      background-color: #99C4C8;
+      width:130px;
+      height:50px;
+      color:white;
+      font-weight: bold;
+      border:none;
+   }
+   .what_we_do_section{
+     width:80%;
+     height:550px;
+     margin-left:10%;
+     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+     position: relative;
+     margin-top:-50px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items:center;
+     border-radius: 5px;
+   }
+  .specilaites{
+    width:600px;
+    height:280px;
+    display: flex;
+  }
+  .sp1{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+  .sp1 img{
+    width:50px;
+    height:50px;
+    margin:15px;
+  }
+  .sp2{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+  .sp2  img{
+    width:50px;
+    height:50px;
+    margin:15px;
+  }
+  /***************************** modal popup for appointment styling starting ********************************/
+  
+  .what_we_do_section .btn{
+    border:none;
+    margin-top:20px;
+  }
+ .appointment_schedule{
+   width:100%;
+   height: 300px;
+ }
+ .appointment_schedule input{
+   border-radius: 5px;
+   margin-top:15px;
+   margin-left:10px;
+ }
+ .appointment_schedule button{
+   margin-top:20px;
+   margin-left:10px;
+   border-radius: 5px;
+   background-color: #7FB5FF;
+   color:white;
+   border:none;
+   font-weight: bold;
+   height:40px;
+   width:100px;
+ }
+
+ /****************************** appointment section styling done ***************************/
+
+ /***************************** services carousel section stuyling begin ********************/
+ .services_carousel{
+   width:80%;
+   height: 550px;
+   margin-left:10%;
+   margin-top:50px;
+   margin-bottom:50px;
+ }
+ .services_intro_text{
+   width:100%;
+   height:150px;
+   
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+ }
+
+ .owl-carousel .dental_card{
+   width:auto;
+   height:400px;
+   
+ }
+ .owl-carousel .nav-btn{
+   width:30px;
+   height:30px;
+   border:2px solid black;
+ }
+ .owl-carousel .owl-prev{
+     width:30px;
+     height:30px;
+    position:absolute;
+    top:-40px;
+    right:60px;
+    color:#0087ca;
+    background-color: black;
+    }
+    .owl-carousel .owl-next{
+      width:30px;
+     height:px;
+    position:absolute;
+    top:-40px;
+    right:20px;
+    background-color: black;;
+    color:#0087ca;
+    }
+    .dental_card .cosmetic_dentistry_img{
+      width:auto;
+      height:200px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .cosmetic_dentistry_img img{
+      width:auto;
+      height:100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .dental_card .cosmetic_dentistry_text{
+      width:80%;
+      margin-left: 10%;
+      height:210px;
+      position: absolute;
+      top:45%;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .cosmetic_dentistry_text .readmore{
+      width:30px;
+      height:25px;
+      border:1px solid black;
+      position:absolute;
+      top:85%;
+      right:20px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .pediatric_dentistry_img{
+      width:auto;
+      height:200px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .pediatric_dentistry_img img{
+      width:auto;
+      height:100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .pediatric_dentistry_text{
+      width:80%;
+      margin-left: 10%;
+      height:210px;
+      position: absolute;
+      top:45%;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .pediatric_dentistry_text .readmore{
+      width:30px;
+      height:25px;
+      border:1px solid black;
+      position:absolute;
+      top:85%;
+      right:20px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .dental_implants_img{
+      width:auto;
+      height:200px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .dental_implants_img img{
+      width:auto;
+      height:100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .dental_implants_text{
+      width:80%;
+      margin-left: 10%;
+      height:210px;
+      position: absolute;
+      top:45%;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .dental_implants_text .readmore{
+      width:30px;
+      height:25px;
+      border:1px solid black;
+      position:absolute;
+      top:85%;
+      right:20px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .completedentures_img{
+      width:auto;
+      height:200px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .completedentures_img img{
+      width:auto;
+      height:100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .completedentures_text{
+      width:80%;
+      margin-left: 10%;
+      height:210px;
+      position: absolute;
+      top:45%;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .completedentures_text .readmore{
+      width:30px;
+      height:25px;
+      border:1px solid black;
+      position:absolute;
+      top:85%;
+      right:20px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .root_canal_img{
+      width:auto;
+      height:200px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .root_canal_img img{
+      width:auto;
+      height:100%;
+      object-fit: fit;
+      border-radius: 10px;
+    }
+    .root_canal_text{
+      width:80%;
+      margin-left: 10%;
+      height:210px;
+      position: absolute;
+      top:45%;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .root_canal_text .readmore{
+      width:30px;
+      height:25px;
+      border:1px solid black;
+      position:absolute;
+      top:85%;
+      right:20px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .teeth_braces_img{
+      width:auto;
+      height:200px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .teeth_braces_img img{
+      width:auto;
+      height:100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .teeth_braces_text{
+      width:80%;
+      margin-left: 10%;
+      height:210px;
+      position: absolute;
+      top:45%;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .teeth_braces_text .readmore{
+      width:30px;
+      height:25px;
+      border:1px solid black;
+      position:absolute;
+      top:85%;
+      right:20px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .Dental_crowns_img{
+      width:auto;
+      height:200px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .Dental_crowns_img img{
+      width:auto;
+      height:100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .Dental_crowns_text{
+      width:80%;
+      margin-left: 10%;
+      height:210px;
+      position: absolute;
+      top:45%;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .Dental_crowns_text .readmore{
+      width:30px;
+      height:25px;
+      border:1px solid black;
+      position:absolute;
+      top:85%;
+      right:20px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /************************************** services section styling ending *****************************************/
+    .meet_doc_heading{
+      width:80%;
+      height:100px;
+      margin-left:10%;
+      margin-top:100px;
+    }
+    
+    .Meet_our_doctors{
+      width:80%;
+      height:500px;
+      margin-left:10%;
+      margin-bottom:25px;
+      display:flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+    }
+    .doctor_img_text{
+      width:100%;
+      height:400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .doctor_icon{
+      width:100%;
+      height:100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .doctor_icon button{
+      width:250px;
+      height:90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+    }
+    .doc_img img{
+      width:400px;
+      height:350px;
+      object-fit:fit;
+    }
+    /*
+    .doctorcrew{
+      width:100%;
+      height:100%;
+      margin:20px;
+      display: flex;
+      flex-direction: column;
+      background-color: #F7F5F2;
+    }
+    .doc_img{
+        width:450px;
+        height:450px;
+        background-color: transparent;
+    }
+    .doc_img img{
+      width:100%;
+      height:100%;
+      object-fit:fit;
+    }
+    .doc_info{
+      width:100%;
+      height:50%;
+      background-color: transparent;
+    }
+    .doc_info button{
+      width:150px;
+      height:40px;
+      border-radius: 25px;
+      margin-left:25%;  
+    }
+    .doc_info .social_icons{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+    */
+    
+                      /**************** our doctors section styling end ****************/
+
+
+
+         /***************************** case study section styling begin ***********************/
+          .case_study_section{
+            width :80%;
+            height:550px;
+            margin-left:10%;
+            margin-top:50px;
+            margin-bottom:50px;
+            display:flex;
+            flex-direction: column;
+            background-color: #F7F5F2;
+          }
+          .case_study_section1{
+            width:100%;
+            height:100%;
+            display: flex;
+            background-color: transparent;
+          }
+          .case_study_section2{
+            width:100%;
+            height:100%;
+            display: flex;
+            background-color: transparent;
+          }
+          .case_study_info{
+            width:100%;
+            margin:10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-radius: 10px;
+            background-color: transparent;
+            align-items: center;
+          }
+          .cases{
+            width:100%;
+            margin:10px;
+            border-radius: 10px;
+          }
+          .cases img{
+            width:100%;
+            height:100%;
+            object-fit: cover;
+            object-position: 20% 50%;
+            border-radius: 10px;
+          }
+/******************************** case study section styling ending ****************************/
+
+
+/******************************** Testimonials section styling begin ****************************/
+.testimonials_section{
+  width:80%;
+  height:600px;
+  border:1px solid black;
+  margin-top:50px;
+  margin-left:10%;
+  margin-bottom:50px;
+  background-color: #112B3C;
+}
+.testimonials{
+  width:80%;
+  margin-left:10%;
+  height:200px;
+  display: flex;
+  background-color: transparent;
+  margin-top:50px;
+}
+.testimonials section{
+  width:100%;
+  height:200px;
+  background-color: #205375;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius:10px;
+  display:flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  border-bottom:2px solid #00B4D8;
+}
+.note_for_clients{
+  width:80%;
+  height:200px;
+  margin-top:100px;
+  margin-left:10%;
+  background-color: #00B4D8;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border-radius: 5px;
+}
+/***************************** testimonials section styling ending ***********************/
+
+.work_process{
+  width:80%;
+  height:500px;
+  margin-left:10%;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+.work_process_heading{
+  width:100%;
+ height:120px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.work_process_description{
+  width:100%;
+  height:380px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.step_desc{
+  width:100%;
+  height:100%;
+  margin:10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.step_desc img{
+  border-radius: 100px;
+}
+/********************************** work process section styling ending ****************************/
+
+/********************************* maps and get intouch section styling begin ***********************/
+.maps_get_in_touch{
+  width:80%;
+  height:500px;
+  margin-top:50px;
+  margin-bottom:50px;
+  margin-left:10%;
+  display: flex;
+  border:1px solid #00B4D8;
+  
+}
+.maps{
+  width:100%;
+  height:500px;
+  border:1px solid #00B4D8;
+}
+.get_in_touch{
+  width:100%;
+  height:500px;
+  border:1px solid #00B4D8;
+}
+.get_in_touch h1 {
+  text-align: center;
+  margin: 35px 0 20px 0 !important;
+}
+ /************************************* maps and get in touch section styling ending *********************************/
+  
+
+ /********************* footer section styling begin *****************************/
+ .footer{
+   width:90%;
+   height:500px;
+   border:1px solid black;
+   margin-left :5%;
+   margin-top:50px;
+   background-color: #112B3C;
+   margin-bottom:20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+.footer_sections{
+  width:80%;
+  height:300px;
+  display: flex;
+  background-color: transparent;
+}
+.footer_contact_us{
+  width:100%;
+ height:300px;
+ border-bottom:2px solid #00B4D8;
+ border-radius: 5px;
+ background-color: #205375;
+ margin-right:5px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.useful_links{
+  width:100%;
+ height:300px;
+ border-bottom:2px solid #00B4D8;
+ border-radius: 5px;
+ background-color: #205375;
+ margin-right:5px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.footer_services{
+  width:100%;
+ height:300px;
+ border-bottom:2px solid #00B4D8;
+ border-radius: 5px;
+ background-color: #205375;
+ margin-right:5px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.social_media{
+  width:100%;
+ height:300px;
+ border-bottom:2px solid #00B4D8;
+ border-radius: 5px;
+ background-color: #205375;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+/************************ home page styling ending ********************/
+
+/************************** about us page styling  begin *******************************/
+.banner_section{
+  width:100%;
+  height:400px;
+  border:1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.banner_section img{
+  width:100%;
+  height:100%;
+  filter: brightness(30%);
+  object-position: cover;
+}
+.banner_section h1{
+  position: absolute;
+}
+.banner_section h5{
+  position: absolute;
+ background-color: transparent;
+ top:60%;
+}
+/********************* banner section ending ********************/
+/********************* comment section begin ********************/
+.comment_section{
+  width:100%;
+  height:300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/***********************cemment sect\ion ending ***********************/
+.philosophy_section{
+  width:100%;
+  height:450px;
+  background-color: #4787B0;
+}
+/**************************** philosophy section styling ending **************************/
+
+/*************************** about doxtor section styling begin **************************/
+.about_doctor{
+  width:100%;
+  height:500px;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+.about_doctor img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  object-position: left 25%;
+}
+.doctor_text{
+  position:relative;
+  width:600px;
+  height:400px;
+  top:-450px;
+  left:700px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/********************************** about doctor section styling ending *************************/
+
+/********************************** areas of expertise section styling begin *************************/
+.areas_of_expertise{
+  width:100%;
+  height:500px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.areas_heading{
+  width:100%;
+  height:50px;
+}
+.areas_section{
+  width:100%;
+  height:350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.areas{
+  width :400px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.animated-fill-button {
+  padding: 10px;
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.animated-fill-button:hover {
+  background: #4787B0;
+  color: #fff;
+}
+
+/******************************** area experise section styling ending ******************************/
+
+/******************************** about us section styling ending ***************************/
+
+
+/****************************** services section styling begin**************************/
+.services_header{
+  width:100%;
+  height:350px;
+  border:1px solid black;
+}
+.services_header img{
+  width:100%;
+  height: 100%;
+  object-fit:fit;
+  filter: brightness(30%);
+}
+.services_title{
+  position:absolute;
+  top:300px;
+  left:150px;
+  background-color: transparent;
+}
+/********************** services header section styling ending **************************/
+/*********************** services description section styling begin *****************************/
+.services_description{
+  width:80%;
+  height:150px;
+  margin-left:10%;
+  margin-top:50px;
+  margin-bottom:50px;
+} 
+/*************************** services section styling ending ***************************/
+.services_cards{
+  width:80%;
+  height:auto;
+  margin-left:10%;
+  display: grid;
+  margin-bottom:150px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding:15px;
+}
+.services_cards .card{
+  width:500px;
+  height:250px;
+  border-radius:20px;
+  margin-left:10px;
+  display: flex;
+ flex-direction: row;
+ outline: 1px solid #0198fa;
+  padding: 20px 20px;
+  border: 5px solid transparent;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card:hover{
+  outline: 0px solid transparent;
+  border: 5px solid #0198fa;
+}
+.content_image{
+  width:150px;
+  height:90%;
+  border-radius:20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:5%
+}
+.content_image img{
+  width:100px;
+  height:100px;
+  object-fit: fit;
+  border:1px solid #0198fa;
+  border-radius: 50px;;
+}
+.content_description{
+ width:350px;
+ height:90%;
+ border-radius:20px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin-top:5%;
+}
+/********************************** services page styling ending **********************************/
+.blog_title{
+  width:80%;
+  height:75px;
+  margin-left:10%;
+  margin-top:50px;
+  display: flex;
+  align-items: center;
+}
+
+.blog_tag_names{
+  width:80%;
+  height:auto;
+  margin-left:10%;
+ margin-bottom:50px;
+}
+
+.blog_tag_names a{
+  color:black;
+  font-family: 'Catamaran',sans-serif;
+  font-weight:bold;
+  opacity: 0.5;
+  margin-left:10px;
+  margin-top:10px;
+  margin-right:10px;
+}
+.blog_tag_names a:hover{
+  text-decoration:none;
+  opacity:1;  
+  color:black;
+  transition: all 0.3s ease-in-out;
+}
+.blog_content{
+  width:80%;
+  height:auto;
+  margin-left:10%;
+  margin-top:50px;
+  margin-bottom:100px;
+}
+.blog_story{
+  width:100%;
+  height:auto;
+}
