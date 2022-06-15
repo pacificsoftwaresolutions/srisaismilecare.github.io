@@ -228,14 +228,12 @@
    height: 300px;
  }
  .appointment_schedule input{
-   border-radius: 5px;
    margin-top:15px;
    margin-left:10px;
  }
  .appointment_schedule button{
    margin-top:20px;
    margin-left:10px;
-   border-radius: 5px;
    background-color: #7FB5FF;
    color:white;
    border:none;
@@ -243,7 +241,6 @@
    height:30px;
    width:80px;
    font-size:14px;
-	 
  }
 
  /****************************** appointment section styling done ***************************/
